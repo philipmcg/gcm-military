@@ -1,0 +1,40 @@
+
+
+
+namespace = Military
+
+using
+ Utilities.GCSV
+
+headername
+ dubr
+ 
+fields
+
+
+ // Number of troops in unit before battle
+ int total_men
+ // Number of unit's troops present in battle
+ int involved_men
+
+ // Number of unit's troops present after battle
+ int remaining_men
+
+ // Total casualties
+ int total_lost
+
+ bool captured
+ bool routed
+
+ // Whether this unit was at the battle.
+ bool present
+
+ int killed
+ int wounded
+ int missing
+ int returned
+ int inflicted
+
+ double experience_gain
+ bool commander_replaced
+ int commander_status

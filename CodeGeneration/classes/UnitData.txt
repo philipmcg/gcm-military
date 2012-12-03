@@ -1,0 +1,99 @@
+tag,state,regt_num,reserve,active,cav,total_k,total_mw,cur_w,cur_missing,w_exp,m_exp,total_missing,total_sent_home,total_kills,total_battles,muster_date,last_men,last_exp,t_recruits,start_men,recruit_limit,gun_missing
+
+
+namespace = Military
+
+using
+ Utilities.GCSV
+
+headername
+ du
+ 
+fields
+
+
+ // Number of troops in unit
+ int men
+ // Number of battles this unit has been engaged in
+ int engagements
+
+ double experience exp
+ string name
+
+ // Identifier of the state this unit is from
+ string state
+
+ int regiment_number
+
+ // Unit type.  0 = Infantry, 1 = Artillery, 2 = Cavalry
+ int type
+ double marksmanship
+ double close
+ double open
+ double edged
+ double firearm
+ double horsemanship
+
+ // Identifier of this unit's weapon
+ int weapon_id
+
+ // Identifier of this unit's troop class
+ int class_id
+
+ // Whether this unit is active.  Inactive units will not be present in battle.
+ bool active
+ 
+ // Unit's unique ID
+ int id
+ 
+ int flag1
+ int flag2
+
+
+ // Total enemy casualties inflicted
+ int total_kills t_k
+
+ // Men this unit started with
+ int initial_men i_men
+ // Experience this unit started with
+ double initial_experience i_exp
+
+ // Total number ever wounded in battle
+ int total_wounded t_w
+ // Total number who died of wounds
+ int total_m_wounded t_mw
+ // Total number who died in battle
+ int total_killed t_k2
+ // Total number who went missing
+ int total_missing t_m
+ // Total number permanently missing -- this should be added to the missing count in turn reports
+ int permanently_missing p_m
+ // Total number who were discharged
+ int total_discharged t_d
+ // Total number who were recruited (including initial strength)
+ int total_recruited t_r
+ // Number currently wounded
+ int cur_wounded c_w
+ // Number currently missing
+ int cur_missing c_m
+ // Number currently sick (this is a portion of the current strength)
+ int cur_sick c_s
+ // Average experience of currently wounded men
+ double wounded_exp e_w
+ // Average experience of currently missing men
+ double missing_exp e_m
+
+ // Player setting, how high this unit should recruit to
+ int recruit_limit r_l
+ // If the unit is missing (cannon lost, regiment surrendered, etc)
+ bool unit_missing g_m
+
+ // The turn at which this unit was created
+ int turn_mustered turn_m
+
+ // Unit's current morale level
+ int current_morale c_morale
+
+ // Unit's loyalty to current regiment commander
+ int loyalty ly
+

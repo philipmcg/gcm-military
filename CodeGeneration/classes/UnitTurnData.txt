@@ -1,0 +1,38 @@
+
+
+
+namespace = Military
+
+using
+ Utilities.GCSV
+
+headername
+ dut
+ 
+fields
+
+ // Total change in unit men
+ int men_change men_c
+ // Number of wounded returned to the ranks
+ int wounded_returned w_r
+ // Number of wounded who died of wounds
+ int wounded_died w_k
+ // Number of wounded who were discharged
+ int wounded_discharged w_d
+ // Number of missing who were permanently lost
+ int missing_lost m_l
+ // Number of missing who returned to the ranks
+ int missing_returned m_r
+ // Number of troops recruited
+ int troops_recruited t_r
+ // Number of troops who deserted (went missing)
+ int troops_deserted t_d
+ // Whether this unit returned from missing status this turn
+ bool unit_returned u_r
+
+ // Change in morale percentage
+ int morale_change m_c
+ // Change in experience
+ double experience_change e_c
+ // Unit was deleted this turn
+ bool unit_deleted u_d

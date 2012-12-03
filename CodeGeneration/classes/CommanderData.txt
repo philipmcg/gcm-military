@@ -1,0 +1,27 @@
+namespace = Military
+
+using
+ Utilities.GCSV
+
+fields
+ int id
+ int rank
+ string first_name fname
+ string middle_initial mname
+ string last_name lname
+ int engagements
+ double experience exp
+ double ability
+ double command
+ double control
+ double leadership
+ double style
+ string portrait
+ 
+ int morale
+
+ // Commander's political power
+ double politics pl
+
+headername
+ dc

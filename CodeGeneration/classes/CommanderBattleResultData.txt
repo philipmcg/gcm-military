@@ -1,0 +1,16 @@
+namespace = Military
+
+using
+ Utilities.GCSV
+
+fields
+
+ int status
+
+ int old_rank
+ string old_first_name old_fname
+ string old_middle_initial old_mname
+ string old_last_name old_lname
+
+headername
+ dcbr

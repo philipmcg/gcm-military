@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Military", "Military.csproj", "{9127198B-14EE-4620-AAFB-3859B6BBCB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\Utilities\Utilities.csproj", "{06C547FB-3208-4B2F-B06B-69F5F4F1E145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9127198B-14EE-4620-AAFB-3859B6BBCB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9127198B-14EE-4620-AAFB-3859B6BBCB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9127198B-14EE-4620-AAFB-3859B6BBCB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9127198B-14EE-4620-AAFB-3859B6BBCB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C547FB-3208-4B2F-B06B-69F5F4F1E145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C547FB-3208-4B2F-B06B-69F5F4F1E145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C547FB-3208-4B2F-B06B-69F5F4F1E145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C547FB-3208-4B2F-B06B-69F5F4F1E145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

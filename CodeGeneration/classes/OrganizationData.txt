@@ -1,0 +1,15 @@
+namespace = Military
+
+using
+ Utilities.GCSV
+
+headername
+ do
+ 
+fields
+
+ string name
+ int level
+ int side
+ int organization_number org_num
+ string state

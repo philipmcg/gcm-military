@@ -1,0 +1,35 @@
+
+
+
+namespace = Military
+
+using
+ Utilities.GCSV
+
+headername
+ due
+ 
+fields
+
+
+ // Number of troops in unit
+ int men
+
+ int experience exp
+ string name
+
+ int marksmanship
+ int close
+ int open
+ int edged
+ int firearm
+ int horsemanship
+
+ // Identifier of this unit's weapon
+ int weapon_id
+
+ // Identifier of this unit's troop class
+ int class_id
+
+ int flag1
+ int flag2

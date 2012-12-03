@@ -1,0 +1,14 @@
+namespace = Military
+
+using
+ Utilities.GCSV
+
+fields
+
+ // Commander's rank before turn
+ int old_rank o_r
+ // Commander's rank after turn
+ int new_rank n_r
+
+headername
+ dct

@@ -1,0 +1,17 @@
+namespace = Military
+
+using
+ Utilities.GCSV
+
+fields
+ int id
+ int rank
+ string first_name fn
+ string middle_initial mn
+ string last_name ln
+ int engagements eng
+ string command_name
+ double experience exp
+
+headername
+ dpcd
